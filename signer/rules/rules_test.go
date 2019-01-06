@@ -22,13 +22,13 @@ import (
 	"strings"
 	"testing"
 
-	"github.com/ethereum/go-ethereum/accounts"
-	"github.com/ethereum/go-ethereum/common"
-	"github.com/ethereum/go-ethereum/common/hexutil"
-	"github.com/ethereum/go-ethereum/core/types"
-	"github.com/ethereum/go-ethereum/internal/ethapi"
-	"github.com/ethereum/go-ethereum/signer/core"
-	"github.com/ethereum/go-ethereum/signer/storage"
+	"github.com/dis-happy/go-ethereum/accounts"
+	"github.com/dis-happy/go-ethereum/common"
+	"github.com/dis-happy/go-ethereum/common/hexutil"
+	"github.com/dis-happy/go-ethereum/core/types"
+	"github.com/dis-happy/go-ethereum/internal/ethapi"
+	"github.com/dis-happy/go-ethereum/signer/core"
+	"github.com/dis-happy/go-ethereum/signer/storage"
 )
 
 const JS = `

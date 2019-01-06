@@ -32,16 +32,16 @@ import (
 	"testing"
 	"time"
 
+	"github.com/dis-happy/go-ethereum/accounts"
+	"github.com/dis-happy/go-ethereum/accounts/keystore"
+	"github.com/dis-happy/go-ethereum/internal/cmdtest"
+	"github.com/dis-happy/go-ethereum/node"
+	"github.com/dis-happy/go-ethereum/p2p"
+	"github.com/dis-happy/go-ethereum/rpc"
+	"github.com/dis-happy/go-ethereum/swarm"
+	"github.com/dis-happy/go-ethereum/swarm/api"
+	swarmhttp "github.com/dis-happy/go-ethereum/swarm/api/http"
 	"github.com/docker/docker/pkg/reexec"
-	"github.com/ethereum/go-ethereum/accounts"
-	"github.com/ethereum/go-ethereum/accounts/keystore"
-	"github.com/ethereum/go-ethereum/internal/cmdtest"
-	"github.com/ethereum/go-ethereum/node"
-	"github.com/ethereum/go-ethereum/p2p"
-	"github.com/ethereum/go-ethereum/rpc"
-	"github.com/ethereum/go-ethereum/swarm"
-	"github.com/ethereum/go-ethereum/swarm/api"
-	swarmhttp "github.com/ethereum/go-ethereum/swarm/api/http"
 )
 
 var loglevel = flag.Int("loglevel", 3, "verbosity of logs")

@@ -24,10 +24,10 @@ import (
 	"testing"
 	"time"
 
-	"github.com/ethereum/go-ethereum/log"
-	"github.com/ethereum/go-ethereum/node"
-	"github.com/ethereum/go-ethereum/p2p/simulations"
-	"github.com/ethereum/go-ethereum/p2p/simulations/adapters"
+	"github.com/dis-happy/go-ethereum/log"
+	"github.com/dis-happy/go-ethereum/node"
+	"github.com/dis-happy/go-ethereum/p2p/simulations"
+	"github.com/dis-happy/go-ethereum/p2p/simulations/adapters"
 	colorable "github.com/mattn/go-colorable"
 )
 

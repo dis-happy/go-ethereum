@@ -21,7 +21,7 @@ import (
 	"os"
 	"testing"
 
-	"github.com/ethereum/go-ethereum/swarm/state"
+	"github.com/dis-happy/go-ethereum/swarm/state"
 )
 
 // TestDBStore tests basic functionality of DBStore.

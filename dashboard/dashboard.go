@@ -34,12 +34,12 @@ import (
 
 	"io"
 
+	"github.com/dis-happy/go-ethereum/log"
+	"github.com/dis-happy/go-ethereum/metrics"
+	"github.com/dis-happy/go-ethereum/p2p"
+	"github.com/dis-happy/go-ethereum/params"
+	"github.com/dis-happy/go-ethereum/rpc"
 	"github.com/elastic/gosigar"
-	"github.com/ethereum/go-ethereum/log"
-	"github.com/ethereum/go-ethereum/metrics"
-	"github.com/ethereum/go-ethereum/p2p"
-	"github.com/ethereum/go-ethereum/params"
-	"github.com/ethereum/go-ethereum/rpc"
 	"github.com/mohae/deepcopy"
 	"golang.org/x/net/websocket"
 )

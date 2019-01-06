@@ -24,7 +24,7 @@ import (
 	"testing"
 	"time"
 
-	p2ptest "github.com/ethereum/go-ethereum/p2p/testing"
+	p2ptest "github.com/dis-happy/go-ethereum/p2p/testing"
 	"golang.org/x/crypto/sha3"
 )
 

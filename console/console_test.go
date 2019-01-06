@@ -26,12 +26,12 @@ import (
 	"testing"
 	"time"
 
-	"github.com/ethereum/go-ethereum/common"
-	"github.com/ethereum/go-ethereum/consensus/ethash"
-	"github.com/ethereum/go-ethereum/core"
-	"github.com/ethereum/go-ethereum/eth"
-	"github.com/ethereum/go-ethereum/internal/jsre"
-	"github.com/ethereum/go-ethereum/node"
+	"github.com/dis-happy/go-ethereum/common"
+	"github.com/dis-happy/go-ethereum/consensus/ethash"
+	"github.com/dis-happy/go-ethereum/core"
+	"github.com/dis-happy/go-ethereum/eth"
+	"github.com/dis-happy/go-ethereum/internal/jsre"
+	"github.com/dis-happy/go-ethereum/node"
 )
 
 const (
